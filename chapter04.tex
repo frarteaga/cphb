@@ -24,15 +24,14 @@ están disponibles en la STL.
 \index{dynamic array}
 \index{vector}
 
-A \key{dynamic array} is an array whose
-size can be changed during the execution
-of the program.
-The most popular dynamic array in C++ is
-the \texttt{vector} structure,
-which can be used almost like an ordinary array.
+Un \key{dynamic array} es un arreglo cuyo 
+tamaño puede ser cambiado en tiempo de ejecución.
+El arreglo dinámico más popular en C++ es
+la estructura \texttt{vector},
+que puede ser usada casi como un arreglo ordinario.
 
-The following code creates an empty vector and
-adds three elements to it:
+El siguiente código crea un vector vacío y
+añade tres elementos a él:
 
 \begin{lstlisting}
 vector<int> v;
@@ -41,7 +40,7 @@ v.push_back(2); // [3,2]
 v.push_back(5); // [3,2,5]
 \end{lstlisting}
 
-After this, the elements can be accessed like in an ordinary array:
+Después de esto el acceso a los elementos puede hacerse como en un arreglo normal:
 
 \begin{lstlisting}
 cout << v[0] << "\n"; // 3
